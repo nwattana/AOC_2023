@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aoc"
+version = "0.1.0"
+description = "for aoc fest"
+authors = ["narin wattanasiri"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bpython = "^0.24"
+rich = "^13.7.0"
+numpy = "^1.26.2"
+pandas = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
