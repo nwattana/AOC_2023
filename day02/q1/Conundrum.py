@@ -20,7 +20,6 @@ def solve(path):
 
     s = 0
     for game in game_dict:
-
         skip = 0
         # a single game
         for aset in game_dict[game]:

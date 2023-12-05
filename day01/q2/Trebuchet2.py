@@ -40,11 +40,7 @@ def resolve():
         res.append(temp)
     return (res)
 
-
-
-
 new_data = resolve()
-
 array_int = []
 for D in new_data:
     array_int.append(int(D[0] + D[-1]))
